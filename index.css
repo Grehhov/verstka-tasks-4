@@ -1,0 +1,73 @@
+html{
+    background-color: #DDCEA6;
+}
+body{
+    width: 1170px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: right;
+    border-top: solid 1px #000;;
+}
+p{
+    text-align: justify;
+}
+.name{
+    font-family: 'Lobster';
+    font-size: 30px;	
+}
+.line{
+    font-size: 16px;
+    border-top: double 3px #000;
+    border-bottom: double 3px #000;
+    text-transform: uppercase;
+}
+.main_news{
+    -webkit-column-count: 3;
+    border: solid 3px red;
+    padding: 10px;
+    width: 70%;
+    margin: 3px 3px 3px 0;	
+}
+.main_news h2 {
+    font-family: 'Bree Serif';
+    -webkit-column-span: all;
+    text-align: center;
+    color: red;
+}
+.other_news{
+    -webkit-column-count: 3;
+    width: 70%;
+    padding: 10px;
+    border: dotted 3px #000;
+    margin: 3px 3px 3px 0;
+    -webkit-column-rule: 3px dotted #000;
+}
+.other_news h2 {
+    font-family: 'Bree Serif';
+    -webkit-column-span: all;
+    text-align: center;
+}
+.other_news h3{
+    font-size: 16px;
+}
+.quotes{
+    float: right;
+    width: 25%;
+    padding: 10px;
+    border: solid 2px #000;
+    margin: 3px 0 3px 3px;
+}
+q{
+    font-family: 'Pacifico';
+}
+p::first-letter{
+    font-family: 'Bree Serif';
+    color: red;
+    font-size: 1.5em;
+}
