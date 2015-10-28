@@ -12,14 +12,14 @@ header{
 }
 footer{
     text-align: right;
-    border-top: solid 1px #000;;
+    border-top: solid 1px #000;
 }
 p{
     text-align: justify;
 }
 .name{
     font-family: 'Lobster';
-    font-size: 30px;	
+    font-size: 30px;
 }
 .line{
     font-size: 16px;
